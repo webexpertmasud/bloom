@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloom & Co. | Flowers & Gifts</title>
+  <meta name="description" content="Beautiful fresh flowers, bouquets and gifts delivered with love.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="announcement">
+    <div class="container-fluid site-width d-flex align-items-center justify-content-between">
+      <span><i class="bi bi-truck me-2"></i>Free Delivery on orders over AED 150</span>
+      <div class="announcement-tools"><a href="#">EN</a><span>|</span><a href="#">عربي</a><span>|</span><a href="#">AED <i class="bi bi-chevron-down"></i></a><a href="#" aria-label="Account"><i class="bi bi-person"></i></a><a href="cart.html" aria-label="Cart"><i class="bi bi-bag"></i><b class="cart-count">0</b></a></div>
+    </div>
+  </div>
+
+  <header class="main-header sticky-top">
+    <nav class="navbar navbar-expand-xl navbar-light site-width">
+      <a class="navbar-brand brand" href="index.html"><span class="brand-mark"><i class="bi bi-flower1"></i></span><span>BLOOM & CO.<small>FLOWERS & GIFTS</small></span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav mx-auto align-items-xl-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link " href="shop.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+        </ul>
+        <div class="header-actions"><button class="icon-button" aria-label="Search" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="bi bi-search"></i></button><a class="icon-button d-none d-xl-inline-flex" href="account.html" aria-label="Account"><i class="bi bi-person"></i></a><a class="icon-button cart-link" href="cart.html" aria-label="Shopping bag"><i class="bi bi-bag"></i><b class="cart-count">0</b></a></div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-width">
+    <!-- 01 / Hero slider -->
+    <section id="flowerHeroSlider" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000" aria-label="Flower highlights">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#flowerHeroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#flowerHeroSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#flowerHeroSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="hero">
+            <div class="hero-copy"><span class="eyebrow">FRESH FLOWERS, MADE WITH LOVE</span><h1>Beautiful Flowers<br>for <em>Every Occasion</em></h1><p>Handpicked blooms, stunning arrangements<br class="d-none d-sm-block"> and reliable delivery across the UAE.</p><a class="btn btn-forest" href="shop.html">Shop Flowers</a></div>
+            <div class="hero-image"><img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1200&q=90" alt="Beautiful pink and cream flower bouquet"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="hero hero-slide-roses">
+            <div class="hero-copy"><span class="eyebrow">MAKE EVERY MOMENT SPECIAL</span><h1>Say It With<br><em>Beautiful Roses</em></h1><p>Thoughtful bouquets to celebrate love, friendship<br class="d-none d-sm-block"> and all the little moments in between.</p><a class="btn btn-forest" href="shop.html?category=Roses">Shop Roses</a></div>
+            <div class="hero-image"><img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1200&q=90" alt="Fresh red roses arranged in a bouquet"></div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="hero hero-slide-gifts">
+            <div class="hero-copy"><span class="eyebrow">GIFTS THAT SPEAK FROM THE HEART</span><h1>A Little Gift<br>Goes <em>A Long Way</em></h1><p>Discover charming floral gifts and joyful surprises<br class="d-none d-sm-block"> made to brighten someone's day.</p><a class="btn btn-forest" href="shop.html?category=Gifts">Explore Gifts</a></div>
+            <div class="hero-image"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=1200&q=90" alt="Beautiful wrapped gift with ribbon"></div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev hero-control" type="button" data-bs-target="#flowerHeroSlider" data-bs-slide="prev" aria-label="Previous slide"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+      <button class="carousel-control-next hero-control" type="button" data-bs-target="#flowerHeroSlider" data-bs-slide="next" aria-label="Next slide"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+    </section>
+
+    <!-- 02 / Service benefits -->
+    <section class="benefits" aria-label="Our service promises">
+      <div class="benefit"><i class="bi bi-truck"></i><span><b>Same Day Delivery</b><small>Across UAE</small></span></div>
+      <div class="benefit"><i class="bi bi-flower1"></i><span><b>Fresh Guarantee</b><small>100% Fresh Flowers</small></span></div>
+      <div class="benefit"><i class="bi bi-shield-check"></i><span><b>Secure Payments</b><small>Safe & Encrypted</small></span></div>
+      <div class="benefit"><i class="bi bi-arrow-repeat"></i><span><b>Easy Returns</b><small>Hassle Free</small></span></div>
+    </section>
+
+    <!-- 03 / Quick shop categories -->
+    <section class="quick-categories" aria-label="Shop flower categories">
+      <a href="shop.html?category=Bouquets"><img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Bouquets</b><small>Shop Now</small></span></a>
+      <a href="shop.html?category=Roses"><img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Roses</b><small>Shop Now</small></span></a>
+      <a href="shop.html?category=Plants"><img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Plants</b><small>Shop Now</small></span></a>
+      <a href="shop.html?category=Gifts"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Gift Boxes</b><small>Shop Now</small></span></a>
+      <a href="shop.html?category=Birthday"><img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Birthday</b><small>Shop Now</small></span></a>
+      <a href="shop.html?category=Sympathy"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=180&q=85" alt=""><span><b>Sympathy</b><small>Shop Now</small></span></a>
+    </section>
+
+    <!-- 04 / Shop by occasion -->
+    <section class="section-block" id="occasions">
+      <div class="section-heading"><h2>Shop by Occasion</h2><a href="shop.html">View all <i class="bi bi-arrow-right"></i></a></div>
+      <div class="occasion-grid">
+        <a href="shop.html?category=Birthday"><img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=500&q=85" alt="Pink birthday bouquet"><span>Birthday</span></a>
+        <a href="shop.html?category=Anniversary"><img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=500&q=85" alt="Red roses"><span>Anniversary</span></a>
+        <a href="shop.html?category=Congratulations"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=500&q=85" alt="Cream flower bouquet"><span>Congratulations</span></a>
+        <a href="shop.html?category=New Baby"><img src="https://images.unsplash.com/photo-1526045478516-99145907023c?auto=format&fit=crop&w=500&q=85" alt="Soft pastel bouquet"><span>New Baby</span></a>
+        <a href="shop.html?category=Get Well"><img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?auto=format&fit=crop&w=500&q=85" alt="Yellow flowers"><span>Get Well Soon</span></a>
+        <a href="shop.html?category=Love"><img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=500&q=85" alt="Romantic flowers"><span>Love & Romance</span></a>
+      </div>
+    </section>
+
+    <!-- 05 / Best sellers -->
+    <section class="section-block" id="best-sellers">
+      <div class="section-heading"><h2>Shop Sellers</h2><a href="shop.html">View all <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-3 product-grid" id="bestSellerGrid"></div>
+    </section>
+
+    <!-- 06 / New arrivals -->
+    <section class="section-block" id="new-arrivals">
+      <div class="section-heading"><h2>Fresh Arrivals</h2><a href="shop.html">View all <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-3 product-grid" id="newArrivalGrid"></div>
+    </section>
+
+    <!-- 07 / Florist favorites -->
+    <section class="section-block" id="florist-favorites">
+      <div class="section-heading"><h2>Florist Favorites</h2><a href="shop.html">View all <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-3 product-grid" id="floristFavoritesGrid"></div>
+    </section>
+
+    <!-- 08 / Seasonal blooms -->
+    <section class="section-block" id="seasonal-blooms">
+      <div class="section-heading"><h2>Seasonal Blooms</h2><a href="shop.html">View all <i class="bi bi-arrow-right"></i></a></div>
+      <div class="row g-3 product-grid" id="seasonalBloomsGrid"></div>
+    </section>
+
+    <!-- 09 / Offers -->
+    <section class="offer-banner" id="offers"><div><span class="eyebrow">A LITTLE SOMETHING EXTRA</span><h2>Make their day<br><em>beautifully unforgettable.</em></h2><p>Find a thoughtful gift for every person and every moment.</p><a class="btn btn-forest" href="shop.html?category=Gifts">Explore Gifts</a></div><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=850&q=85" alt="Beautiful gift box with ribbon"></section>
+
+    <!-- 10 / Why Bloom -->
+    <section class="section-block">
+      <div class="section-heading"><h2>Why Bloom & Co.</h2><span class="muted">Little details. Lots of love.</span></div>
+      <div class="row g-3">
+        <div class="col-6 col-lg-3"><article class="promise-card"><i class="bi bi-flower1"></i><h3>Fresh by Design</h3><p>Beautiful blooms selected with care.</p></article></div>
+        <div class="col-6 col-lg-3"><article class="promise-card"><i class="bi bi-box-seam"></i><h3>Thoughtful Packaging</h3><p>Every bouquet arrives ready to delight.</p></article></div>
+        <div class="col-6 col-lg-3"><article class="promise-card"><i class="bi bi-truck"></i><h3>Reliable Delivery</h3><p>Send a little happiness right to their door.</p></article></div>
+        <div class="col-6 col-lg-3"><article class="promise-card"><i class="bi bi-heart"></i><h3>Made with Love</h3><p>Personal touches for meaningful moments.</p></article></div>
+      </div>
+    </section>
+
+    <!-- 11 / Gift edit -->
+    <section class="gift-edit"><img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=850&q=85" alt="Seasonal floral arrangement"><div><span class="eyebrow">THE FLOWER EDIT</span><h2>Say it with<br><em>something lovely.</em></h2><p>From a just-because bouquet to a once-in-a-lifetime celebration, make every message memorable.</p><a href="shop.html" class="text-link">Find your flowers <i class="bi bi-arrow-right"></i></a></div></section>
+
+    <!-- 12 / Customer love -->
+    <section class="section-block">
+      <div class="section-heading"><h2>Love Notes</h2><span class="muted">Kind words from our customers</span></div>
+      <div class="row g-3"><div class="col-md-4"><article class="review-card"><div class="stars">★★★★★</div><p>“The bouquet was beautiful and arrived right on time. Such a lovely experience.”</p><b>Happy customer</b></article></div><div class="col-md-4"><article class="review-card"><div class="stars">★★★★★</div><p>“The flowers looked even more beautiful in person. I’ll definitely order again.”</p><b>Happy customer</b></article></div><div class="col-md-4"><article class="review-card"><div class="stars">★★★★★</div><p>“Easy ordering, gorgeous flowers, and thoughtful presentation from start to finish.”</p><b>Happy customer</b></article></div></div>
+    </section>
+
+    <!-- 13 / Flower care -->
+    <section class="care-section"><div><span class="eyebrow">A FEW FLOWER TIPS</span><h2>Keep your blooms<br><em>beautiful for longer.</em></h2><p>Trim stems at an angle, use a clean vase, refresh the water regularly, and keep flowers away from direct heat.</p><a href="contact.html" class="text-link">Ask us for flower-care advice <i class="bi bi-arrow-right"></i></a></div><img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=900&q=85" alt="Fresh flowers in a vase"></section>
+
+    <!-- 14 / Newsletter -->
+    <section class="newsletter"><div><span class="eyebrow">BLOOM IN YOUR INBOX</span><h2>Good things are <em>growing.</em></h2><p>Get flower inspiration, care tips, and special offers.</p></div><form id="newsletterForm" class="newsletter-form"><input class="form-control" type="email" placeholder="Your email address" required><button class="btn btn-forest" type="submit">Subscribe</button></form></section>
+
+  </main>
+
+  <!-- Footer with trust and delivery promises -->
+  <footer class="site-footer mt-5"><div class="site-width"><div class="row g-4"><div class="col-lg-4"><a class="brand footer-brand" href="index.html"><span class="brand-mark"><i class="bi bi-flower1"></i></span><span>BLOOM & CO.<small>FLOWERS & GIFTS</small></span></a><p class="footer-about">Handpicked flowers and thoughtful gifts to make the moments that matter feel even more special.</p><div class="socials"><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a><a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a></div></div><div class="col-6 col-lg-2"><h3>Shop</h3><a href="shop.html">All Flowers</a><a href="shop.html?category=Roses">Roses</a><a href="shop.html?category=Plants">Plants</a><a href="shop.html?category=Gifts">Gift Boxes</a></div><div class="col-6 col-lg-2"><h3>Help</h3><a href="contact.html">Contact Us</a><a href="tracking.html">Track an Order</a><a href="#">Delivery Information</a><a href="#">Returns</a></div><div class="col-lg-4"><h3>Say hello</h3><p class="footer-contact"><i class="bi bi-envelope"></i> hello@bloomandco.example</p><p class="footer-contact"><i class="bi bi-clock"></i> Daily, 9:00 AM – 9:00 PM</p><p class="footer-contact"><i class="bi bi-geo-alt"></i> Delivering across the UAE</p></div></div><div class="trust-strip footer-trust"><span><i class="bi bi-lock"></i> Secure checkout</span><span><i class="bi bi-credit-card"></i> Convenient payment</span><span><i class="bi bi-chat-heart"></i> Friendly support</span><span><i class="bi bi-truck"></i> UAE delivery</span></div><div class="footer-bottom"><span>© 2026 Bloom & Co. All rights reserved.</span><span>Privacy Policy&nbsp;&nbsp; · &nbsp;&nbsp;Terms & Conditions</span></div></div></footer>
+
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true"><div class="modal-dialog modal-dialog-centered"><div class="modal-content search-modal"><div class="modal-header"><h2 class="modal-title fs-5" id="searchModalLabel">Find your flowers</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div class="modal-body"><form action="shop.html"><div class="input-group"><input class="form-control" name="q" placeholder="Search bouquets, roses, gifts..." aria-label="Search products"><button class="btn btn-forest" type="submit"><i class="bi bi-search"></i></button></div></form></div></div></div></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
